@@ -531,7 +531,7 @@ table {
     height: 529px;
     display: flex;
     margin-top: 113px;
-    margin-bottom: 97px;
+    padding-bottom: 97px;
 }
 .sales-left {
     width: 767px;
@@ -623,3 +623,8 @@ table {
     color: #fbfbfb;
 }
 
+
+.rewiews-contaner {
+    width: 1600px;
+    
+}

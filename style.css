@@ -153,12 +153,20 @@ table {
 
 .header-left {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    width: 605px;
 }
 
-
-
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+}
+.search-box {
+    display: flex;
+}
 .shop-name {
     display: inline-block;
     text-decoration: none;
@@ -178,18 +186,24 @@ table {
     display: flex;
     width: 87px;
     height: 38px;
-    background-color: #cdcdcc;
-    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    background-color: #f5f5f5;
     border: 1px solid #e6e6e6;
     border-radius: 3px 0px 0px 3px;
-    justify-content: space-around;
     align-items: center;
 }
-
+.browse-site:hover {
+    background-color: #a4a4a4;
+    border: 1px solid #a4a4a4;
+}
+.browse-site:hover .browse {
+    color: #f5f5f5;
+}
 .browse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-decoration: none;
     font-size: 14px;
-    line-height: 32px;
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #222222;
@@ -199,10 +213,10 @@ table {
 
 .header-left input {
     width: 263px;
-    height: 38px;
+    height: 36px;
     background-color: #ffffff;
     border: 1px solid #e6e6e6;
-    padding: 0px 0px;
+    padding-left: 16px;
     font-size: 14px;
     line-height: 32px;
     font-weight: 300;
@@ -223,13 +237,15 @@ table {
 .header-left button:hover {
     color: #ffffff;
     background-color: #a4a4a4;
+    border: 1px solid #a4a4a4;
 
 }
 
 .header-right {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    width: 188px;
 }
 
 .my-acc {
@@ -239,18 +255,27 @@ table {
     width: 130px;
     height: 38px;
     background-color: #f16d7f;
-    margin-left: 26px;
 }
 
 .account {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-decoration: none;
     font-size: 15px;
-    line-height: 32px;
     font-weight: 400;
-    letter-spacing: 0.025em;
     color: #ffffff;
 }
-
+.my-acc:hover {
+    background-color: #ffffff;
+    outline: 2px solid #f16d7f;
+}
+.my-acc:hover .account {
+    color: #f16d7f;
+    font-weight: 700;
+}
 .nav-container {
     width: 1600px;
     height: 51px;
@@ -372,6 +397,7 @@ table {
     position: relative;
     display: flex;
 }
+
 
 .category-sm-box {
     display: flex;

@@ -397,7 +397,22 @@ table {
     position: relative;
     display: flex;
 }
-
+.for-men:hover h4 {
+    text-decoration-line: underline;
+    text-decoration-color: #f16d7f;
+}
+.accesories:hover h4 {
+    text-decoration-line: underline;
+    text-decoration-color: #f16d7f;
+}
+.for-women:hover h4 {
+    text-decoration-line: underline;
+    text-decoration-color: #f16d7f;
+}
+.for-kids:hover h4 {
+    text-decoration-line: underline;
+    text-decoration-color: #f16d7f;
+}
 
 .category-sm-box {
     display: flex;

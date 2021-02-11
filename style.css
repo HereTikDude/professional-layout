@@ -299,14 +299,15 @@ button {
 
 .menu-list:hover .menu-link {
   color: #f16d7f;
-  outline: 2px solid #f16d7f;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ef5b70;
 }
 
 .menu-link {
   display: flex;
   align-items: center;
   padding: 0 17px;
-  height: 40px;
+  height: 45px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -427,7 +428,30 @@ button {
 .menu-list-last:hover .mega-box {
   left: auto;
   right: 10px;
-  top: 40px;
+  top: 52px;
+}
+
+.drop-down-box {
+  display: none;
+  position: absolute;
+  top: 70px;
+}
+
+.browse-site:hover .drop-down-box {
+  display: flex;
+}
+
+.drop-down-links {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #4f4f4f;
+}
+
+.drop-down-links:hover {
+  color: #f16d7f;
 }
 
 .rewiews-container {
@@ -700,7 +724,7 @@ button {
   color: #f7f7f8;
 }
 
-.container {
+.container, .sales-container, .browse-all, .items, .fetured-headline, .product-container, .category-container, .slider-container, .header-container, .header-box, .nav-container, .rewiews-container, .footer-container, .footer-bottom {
   margin: 0 auto;
 }
 
